@@ -16,7 +16,8 @@ const App = () => {
   const [unit, setUnit] = useState('C');
   const [error, setError] = useState('');
 
- const API_key = 'e041930c17ff530b21543084db7ac880';
+const API_key = import.meta.env.VITE_WEATHER_API_KEY;
+
 
   useEffect(() => {
     const interval = setInterval(() => {
