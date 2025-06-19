@@ -6,6 +6,8 @@ import SunriseIcon from './assets/sunrise.png';
 import SunsetIcon from './assets/sunset.png';
 import VisibilityIcon from './assets/visibility.png';
 import WindIcon from './assets/wind.png';
+import HELPER from './components/helper';
+
 
 const App = () => {
   const [weather, setWeather] = useState(null);
