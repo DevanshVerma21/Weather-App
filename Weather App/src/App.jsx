@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import WeatherBackground from './components/WeatherBackground';
-import { convertTemperature, getHumidityValue, getVisibilityValue, getWindDirection } from './components/HELPER';
+import { convertTemperature, getHumidityValue, getVisibilityValue, getWindDirection } from './components/helper';
 import HumidityIcon from './assets/humidity.png';
 import SunriseIcon from './assets/sunrise.png';
 import SunsetIcon from './assets/sunset.png';
