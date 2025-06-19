@@ -155,7 +155,7 @@ const API_key = import.meta.env.VITE_WEATHER_API_KEY;
               <img
                 src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
                 alt={weather.weather[0].description}
-                className='mx-auto my-4 animate-bounce'
+                className='mx-auto my-4 animate'
               />
               <p className='text-4xl'>
                 {convertTemperature(weather.main.temp, unit)} &deg;{unit}

@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: weather-app
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: dist
+    buildFilter:
+      paths:
+        - .
